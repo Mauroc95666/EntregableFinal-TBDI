@@ -1,2 +1,8 @@
 ﻿archivo_actividad5/
 backups/
+docker-compose.yml
+employees-estructura.sql
+migracion.load
+verificar_huerfanos_mariadb.sql
+verificar_huerfanos_postgresql.sql
+restricciones_postgresql_final.txt
