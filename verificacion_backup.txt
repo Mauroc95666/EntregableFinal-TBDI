@@ -1,0 +1,45 @@
+;
+; Archive created at 2026-09-26 16:39:38 -04
+;     dbname: pdb_employees
+;     TOC Entries: 35
+;     Compression: gzip
+;     Dump Version: 1.16-0
+;     Format: CUSTOM
+;     Integer: 4 bytes
+;     Offset: 8 bytes
+;     Dumped from database version: 18.6 (Debian 18.6-1.pgdg13+2)
+;     Dumped by pg_dump version: 18.6 (Debian 18.6-1.pgdg12+2)
+;
+;
+; Selected TOC Entries:
+;
+6; 2615 16391 SCHEMA - employees luis
+227; 1259 16583 TABLE employees dept_emp luis
+232; 1259 16672 VIEW employees dept_emp_latest_date luis
+233; 1259 16676 VIEW employees current_dept_emp luis
+226; 1259 16578 TABLE employees departments luis
+228; 1259 16590 TABLE employees dept_manager luis
+229; 1259 16597 TABLE employees employees luis
+230; 1259 16608 TABLE employees salaries luis
+231; 1259 16615 TABLE employees titles luis
+3493; 0 16578 TABLE DATA employees departments luis
+3494; 0 16583 TABLE DATA employees dept_emp luis
+3495; 0 16590 TABLE DATA employees dept_manager luis
+3496; 0 16597 TABLE DATA employees employees luis
+3497; 0 16608 TABLE DATA employees salaries luis
+3498; 0 16615 TABLE DATA employees titles luis
+3325; 2606 16638 CONSTRAINT employees departments idx_16578_primary luis
+3328; 2606 16637 CONSTRAINT employees dept_emp idx_16583_primary luis
+3331; 2606 16636 CONSTRAINT employees dept_manager idx_16590_primary luis
+3333; 2606 16639 CONSTRAINT employees employees idx_16597_primary luis
+3335; 2606 16640 CONSTRAINT employees salaries idx_16608_primary luis
+3337; 2606 16635 CONSTRAINT employees titles idx_16615_primary luis
+3323; 1259 16625 INDEX employees idx_16578_dept_name luis
+3326; 1259 16623 INDEX employees idx_16583_dept_no luis
+3329; 1259 16622 INDEX employees idx_16590_dept_no luis
+3338; 2606 16641 FK CONSTRAINT employees dept_emp dept_emp_ibfk_1 luis
+3339; 2606 16646 FK CONSTRAINT employees dept_emp dept_emp_ibfk_2 luis
+3340; 2606 16651 FK CONSTRAINT employees dept_manager dept_manager_ibfk_1 luis
+3341; 2606 16656 FK CONSTRAINT employees dept_manager dept_manager_ibfk_2 luis
+3342; 2606 16661 FK CONSTRAINT employees salaries salaries_ibfk_1 luis
+3343; 2606 16666 FK CONSTRAINT employees titles titles_ibfk_1 luis
