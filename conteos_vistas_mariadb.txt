@@ -1,3 +1,0 @@
-vista	filas
-dept_emp_latest_date	300024
-current_dept_emp	300024

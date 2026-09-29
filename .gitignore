@@ -6,3 +6,9 @@ migracion.load
 verificar_huerfanos_mariadb.sql
 verificar_huerfanos_postgresql.sql
 restricciones_postgresql_final.txt
+conteos_vistas_mariadb.txt
+conteos_vistas_postgresql.txt
+prueba_vista_current.txt
+prueba_vista_latest.txt
+vista_current_mariadb.txt
+vista_latest_mariadb.txt
